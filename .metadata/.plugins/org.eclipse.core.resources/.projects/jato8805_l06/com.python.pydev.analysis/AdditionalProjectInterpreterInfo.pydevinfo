@@ -1,0 +1,25 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l06\com.python.pydev.analysis\v2_indexcache
+t01|1761359000064430900|C:\Users\Joseph\CP164_FALL_2025\jato8805_l06\src\t01.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=t01
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_l06\src\t01.py
+-- END DICTIONARY
+-- START TREE 1
+9
+cou|1|count_z1964!1^65#1*19@
+fou|2|found!1^49#1*19@found2013!1^71#1*19@
+lst|1|lst!1^30#1*19@
+mak|1|make_movie_from_line!1^15#5*18@
+mov|2|movie_lines!1^26#5*19@movies!1^28#1*19@
+rem|1|removed!1^52#1*19@
+sea|2|search_z2013!1^69#1*19@search_key!1^47#1*19@
+z19|1|z1964!1^58#1*19@
+z20|1|z2013!1^59#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

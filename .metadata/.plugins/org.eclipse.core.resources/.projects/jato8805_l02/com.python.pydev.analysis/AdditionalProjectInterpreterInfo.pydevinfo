@@ -1,0 +1,29 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l02\com.python.pydev.analysis\v2_indexcache
+test_stack_to_array|1758218478482465600|C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_stack_to_array.py
+stack_test_movies|1758323502818273900|C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\stack_test_movies.py
+test_array_to_stack|1758218607378444300|C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_array_to_stack.py
+test_reverse_pipeline|1758219604432521700|C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_reverse_pipeline.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_stack_to_array.py
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_reverse_pipeline.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\test_array_to_stack.py
+6=test_stack_to_array
+2=test_array_to_stack
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_l02\src\stack_test_movies.py
+4=stack_test_movies
+8=test_reverse_pipeline
+-- END DICTIONARY
+-- START TREE 1
+4
+_st|1|_stack_repr!1^16#5*18@
+mai|4|main!1^33#5*18@main!3^16#5*34@main!5^17#5*50@main!7^42#5*66@
+pre|1|pretty_stack!7^17#5*66@
+run|2|run_case!7^21#5*66@run_case!1^21#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

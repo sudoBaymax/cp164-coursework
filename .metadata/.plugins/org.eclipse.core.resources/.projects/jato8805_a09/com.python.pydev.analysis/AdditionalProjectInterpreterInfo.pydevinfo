@@ -1,0 +1,39 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a09\com.python.pydev.analysis\v2_indexcache
+test_gibbon_hashing|1763854383040917600|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\test_gibbon_hashing.py
+functions|1763863916800488200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\functions.py
+t01|1763870207757455500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t01.py
+t03|1763870206197196700|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t03.py
+t02|1763868558758559100|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t02.py
+t04|1763868503453046300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+12=test_gibbon_hashing
+4=functions
+10=t01
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t04.py
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t03.py
+6=t03
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t02.py
+8=t02
+9=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\t01.py
+2=t04
+11=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\test_gibbon_hashing.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a09\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+8
+com|2|compare_parent_methods!1^220#5*18@comparison_total!3^36#5*34@
+fv|3|fv!5^18#1*51@fv!7^19#1*67@fv!9^18#1*83@
+gib|1|gibbon_to_word!11^19#5*98@
+has|4|hash_set!5^17#1*51@hash_stats!11^31#5*98@hash_set!7^18#1*67@hash_set!9^17#1*83@
+hse|1|hset!11^67#5*99@
+ins|1|insert_words!3^15#5*34@
+tes|4|test_node_counts!1^14#5*18@test_contains!1^92#5*18@test_parent_iterative!1^128#5*18@test_parent_recursive!1^174#5*18@
+wor|2|words!11^59#9*99@word_to_hash!11^45#5*98@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

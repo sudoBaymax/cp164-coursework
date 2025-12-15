@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a08\com.python.pydev.analysis\v2_indexcache
+functions|1763237156949768300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\functions.py
+t01|1763238140080698300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t01.py
+t03|1763237195218642100|C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t03.py
+t02|1763236258831197800|C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t03.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t01.py
+2=t01
+8=functions
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\t02.py
+6=t03
+4=t02
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a08\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+11
+bst|7|bst2!1^94#1*19@bst2!3^22#1*35@bst!5^32#1*51@bst3!1^99#1*19@bst!1^15#1*19@bst3!3^23#1*35@bst1!3^21#1*35@
+com|1|comparison_total!7^44#5*66@
+dat|4|DATA3!3^18#1*35@DATA1!3^16#1*35@DATA3!5^29#1*51@DATA2!3^17#1*35@
+do_|1|do_comparisons!7^15#5*66@
+dup|1|duplicate!1^28#1*19@
+fil|2|file_variable!3^41#1*35@file_variable!5^40#1*51@
+ins|1|inserted!1^24#5*19@
+let|3|letter!3^27#5*35@letter!5^36#5*51@letter_table!7^65#5*66@
+mos|1|most_efficient!3^74#5*35@
+tot|3|total2!3^54#1*35@total1!3^44#1*35@total3!3^64#1*35@
+val|1|values!1^22#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

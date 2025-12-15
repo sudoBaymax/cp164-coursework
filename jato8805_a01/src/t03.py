@@ -1,0 +1,26 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+from functions import dsmvwl
+
+def main():
+    remove_vowel = dsmvwl('I think your book is an utter piece of garbage.')
+    print(remove_vowel)  # shows the actual result
+    
+    if remove_vowel == "thnk yr bk s n ttr pc f grbg.":
+        return "Success!"
+    else:
+        return "False :("
+
+    
+if __name__ == "__main__":
+    print(main())

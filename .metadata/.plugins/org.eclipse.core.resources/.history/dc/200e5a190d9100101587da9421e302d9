@@ -1,0 +1,23 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    estring = ""
+
+    for ch in string.upper():
+        if ch.isalpha():
+            index = alphabet.index(ch)
+            estring += ciphertext[index]
+        else:
+            estring += ch
+
+    return estring

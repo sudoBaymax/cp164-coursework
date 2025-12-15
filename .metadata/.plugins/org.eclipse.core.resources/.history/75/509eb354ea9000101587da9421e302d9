@@ -1,0 +1,19 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+from functions import list_subtraction
+
+def main():
+    print(list_subtraction([5, 5, 4, 5], [5]))
+    
+if __name__ == "__main__":
+    main()

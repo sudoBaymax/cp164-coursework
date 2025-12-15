@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="632"/>
+		<item key="DIALOG_Y_ORIGIN" value="127"/>
+		<item key="DIALOG_WIDTH" value="714"/>
+		<item key="DIALOG_HEIGHT" value="664"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.python.pydev.ui.wizards.project.PythonProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="194"/>
+			<item key="DIALOG_WIDTH" value="700"/>
+			<item key="DIALOG_HEIGHT" value="505"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="PropertyDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="303"/>
+		<item key="DIALOG_Y_ORIGIN" value="127"/>
+		<item key="DIALOG_WIDTH" value="785"/>
+		<item key="DIALOG_HEIGHT" value="657"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="142"/>
+			<item key="DIALOG_WIDTH" value="700"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a09.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l10.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a08.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l09.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a07.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l08.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a06.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l07.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l06.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a05.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l05.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l04.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a03.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l03.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l02.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_a01.zip"/>
+			<item value="C:\Users\Joseph\Desktop\cp164\jato8805_l01.zip"/>
+		</list>
+		<section name="ZipFileExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="163"/>
+			<item key="DIALOG_Y_ORIGIN" value="142"/>
+			<item key="DIALOG_WIDTH" value="805"/>
+			<item key="DIALOG_HEIGHT" value="708"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

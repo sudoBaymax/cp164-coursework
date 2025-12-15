@@ -1,0 +1,19 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\cp164_exam_practice\com.python.pydev.analysis\v2_indexcache
+bst_sum|1765317187299410600|C:\Users\Joseph\CP164_FALL_2025\cp164_exam_practice\src\bst_sum.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=bst_sum
+1=C:\Users\Joseph\CP164_FALL_2025\cp164_exam_practice\src\bst_sum.py
+-- END DICTIONARY
+-- START TREE 1
+3
+bst|3|bst_tree!1^29#1*19@bst_sum!1^15#5*18@bst_sum_aux!1^18#5*18@
+cou|2|count_leaves!1^37#5*18@count_leaves_aux!1^40#5*18@
+x|1|x!1^28#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

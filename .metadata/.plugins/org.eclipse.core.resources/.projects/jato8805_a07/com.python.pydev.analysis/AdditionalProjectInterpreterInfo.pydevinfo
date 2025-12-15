@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a07\com.python.pydev.analysis\v2_indexcache
+t01|1762660995492293500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a07\src\t01.py
+t02|1762661003869751200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a07\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=t01
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a07\src\t02.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a07\src\t01.py
+2=t02
+5=_Dummy
+-- END DICTIONARY
+-- START TREE 1
+16
+_du|1|_Dummy!1^47#11*17@
+_li|1|_list_module_names!1^18#1*19@
+_so|1|_sorted_module_names!1^19#1*19@
+ass|1|assert_equal!1^61#5*18@
+bui|1|build_list!3^32#5*34@
+equ|1|equal_pylist!3^38#5*34@
+fai|1|failed!1^381#1*19@
+lis|1|List!1^21#1*19@
+m|1|m!1^26#9*19@
+ok|1|ok!1^384#5*19@
+pas|1|passed!1^380#1*19@
+pyl|1|pylist_from_list!3^29#5*34@
+run|2|run_test!1^64#5*18@run_test!3^44#5*34@
+sor|1|Sorted_List!1^22#1*19@
+tes|39|test_combine_one_empty_other_nonempty!3^129#5*34@test_sorted_find_and_peek!1^253#5*18@test_union_basic!3^145#5*34@test_list_union_basic!1^226#5*18@test_sorted_intersection_and_union!1^279#5*18@test_combine_both_nonempty!3^137#5*34@test_list_append_and_iter!1^76#5*18@test_remove_many_and_count!3^73#5*34@test_sorted_split_th_empty_and_small!1^297#5*18@test_list_combine_both_empty!1^102#5*18@tests!1^377#1*19@test_sorted_combine_and_combine_r!1^312#5*18@test_list_split_one!1^151#5*18@test_append_prepend_remove_front!3^60#5*34@test_sorted_insert_and_iter!1^242#5*18@test_list_split_alt_multiple!1^200#5*18@test_split_alt_empty_and_single!3^106#5*34@test_split_odd_count!3^100#5*34@test_list_clean_no_error_on_empty!1^86#5*18@test_functions!3^177#1*35@tests_total!3^42#1*35@test_list_split_empty!1^142#5*18@test_list_combine_both_nonempty!1^127#5*18@test_split_empty_and_single!3^84#5*34@test_list_split_multiple_odd!1^171#5*18@test_list_split_alt_empty!1^182#5*18@tests_passed!3^41#1*35@test_list_split_alt_single!1^191#5*18@test_combine_both_empty!3^122#5*34@test_list_clean_duplicates!1^94#5*18@test_list_split_multiple_even!1^160#5*18@test_sorted_copy_and_copy_r!1^340#5*18@test_split_alt_pattern!3^116#5*34@test_clean!3^78#5*34@test_sorted_remove_and_remove_many!1^265#5*18@test_split_even_odd_counts!3^94#5*34@test_intersection_basic!3^154#5*34@test_list_combine_one_empty_one_nonempty!1^114#5*18@test_list_intersection_basic!1^212#5*18@
+to_|1|to_pylist!1^55#5*18@
+-- END TREE
+-- START TREE 2
+1
+__i|1|__init__!5&1^48#13*18@
+-- END TREE

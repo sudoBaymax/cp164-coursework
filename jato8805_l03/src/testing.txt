@@ -1,0 +1,33 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-12-09
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+test_pq_movies.py
+-------------------------------------------------------
+== Priority_Queue test ==
+Start empty?: True
+Len after inserts (if __len__ defined): 21
+Front (peek, highest priority): Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+Removed in priority order: [<Movie.Movie object at 0x000001EA9B21D010>, <Movie.Movie object at 0x000001EA9B21D190>, <Movie.Movie object at 0x000001EA9B21D130>, <Movie.Movie object at 0x000001EA9B21CE30>, <Movie.Movie object at 0x000001EA9B21CDD0>, <Movie.Movie object at 0x000001EA9B21D370>, <Movie.Movie object at 0x000001EA9B21D250>, <Movie.Movie object at 0x000001EA9B21CEF0>, <Movie.Movie object at 0x000001EA9B21D430>, <Movie.Movie object at 0x000001EA9B21D2B0>, <Movie.Movie object at 0x000001EA9B21D0D0>, <Movie.Movie object at 0x000001EA9B21CFB0>, <Movie.Movie object at 0x000001EA9B21D3D0>, <Movie.Movie object at 0x000001EA9B21CF50>, <Movie.Movie object at 0x000001EA9B21D1F0>, <Movie.Movie object at 0x000001EA9B21D070>, <Movie.Movie object at 0x000001EA9B21D4F0>, <Movie.Movie object at 0x000001EA9B21D310>, <Movie.Movie object at 0x000001EA9B21D490>, <Movie.Movie object at 0x000001EA9B21CE90>, <Movie.Movie object at 0x000001EA9B21D550>]
+End empty?: True
+
+-------------------------------------------------------
+test_array_to_queue.py
+-------------------------------------------------------
+[PASS] array_to_queue returns None: got=None, expected=None
+[PASS] source emptied: got=[], expected=[]
+[PASS] queue order via __iter__: got=[1, 5, 2], expected=[1, 5, 2]
+[PASS] peek() is first element: got=1, expected=1
+[PASS] remove() FIFO order: got=[1, 5, 2], expected=[1, 5, 2]
+[PASS] queue empty after removals: got=True, expected=True

@@ -1,0 +1,23 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+from functions import is_valid
+
+def main():
+    print(is_valid("2var"))       # False
+    print(is_valid("_var"))       # True
+    print(is_valid("var2"))       # True
+    print(is_valid("var-name"))   # False
+    print(is_valid("class"))      # True 
+    print(is_valid(""))           # False
+
+if __name__ == "__main__":
+    main()

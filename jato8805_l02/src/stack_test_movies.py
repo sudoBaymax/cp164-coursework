@@ -1,0 +1,24 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-18"
+-------------------------------------------------------
+"""
+# Imports
+from Stack_array import Stack
+from utilities import stack_test, array_to_stack
+from Movie_utilities import read_movies
+
+def main():
+    # Test stack by adding, removing, etc to see that the stack functions work
+    file_location = "C:/Users/Joseph/CP164_FALL_2025/jato8805_data_structures/src/movies.txt"
+    with open(file_location, "r", encoding="utf-8") as fv:
+        movies = read_movies(fv)      # movies is a list[Movie]
+    stack_test(movies)    
+    
+if __name__ == "__main__":
+    main()

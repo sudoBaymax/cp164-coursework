@@ -1,0 +1,64 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-12-09
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+[PASS] append/prepend/remove_front
+[PASS] remove_many and count
+[PASS] clean
+[PASS] split empty & single
+[PASS] split even/odd counts
+[PASS] split odd count
+[PASS] split_alt empty & single
+[PASS] split_alt pattern
+[PASS] combine both empty
+[PASS] combine one empty
+[PASS] combine both nonempty
+[PASS] union basic
+[PASS] intersection basic
+
+RESULT: 13/13 tests passed.
+All tests passed! 🎉
+
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Running tests...
+
+PASS: List append and iter - got [99, 1]
+PASS: List clean empty - clean on empty ok
+PASS: List clean duplicates - got [11, 22, 33]
+PASS: List combine both empty - target=[] s1=[] s2=[]
+PASS: List combine one empty - target=[11, 22, 33]
+PASS: List combine both nonempty - target=[1, 2, 3, 4, 5]
+PASS: List split empty - a=[] b=[]
+PASS: List split one - a=[99] b=[]
+PASS: List split multiple even - a=[11, 22] b=[33, 44]
+PASS: List split multiple odd - a=[11, 22, 33] b=[44, 55]
+PASS: List split_alt empty - split_alt empty ok
+PASS: List split_alt single - a=[99] b=[]
+PASS: List split_alt multiple - a=[11, 33, 55] b=[22, 44]
+PASS: List intersection basic - got [22, 33]
+PASS: List union basic - got [11, 22, 33, 44]
+PASS: Sorted insert and iter - got [11, 22, 33, 44]
+PASS: Sorted find and peek - find=22 peek=11
+PASS: Sorted remove and remove_many - removed 22, counts 1->0
+PASS: Sorted intersection and union - inter=[33, 44] union=[11, 22, 33, 44, 55]
+PASS: Sorted split_th empty/single - empty ok and single ok: a=[99] b=[]
+FAIL: Sorted combine & combine_r - Sorted_List.combine_r() takes 2 positional arguments but 3 were given
+PASS: Sorted copy & copy_r - copy=[11, 22, 33] copy_r=[11, 22, 33]
+
+Summary:
+Passed: 21
+Failed: 1
+Some tests failed. Inspect failures above.

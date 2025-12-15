@@ -1,0 +1,48 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+def clean_list(values):
+    """
+    -------------------------------------------------------
+    Removes all duplicate values from a list: values contains
+    only one copy of each of its integers. The order of values
+    must be preserved.
+    Use: clean_list(values)
+    -------------------------------------------------------
+    Parameters:
+        values - a list of integers (list of int)
+    Returns:
+        None
+    -------------------------------------------------------
+    """
+    # order must be preserved
+    # must edit the original list that it takes as a parameter
+    # this means we can't use any algorithm like heap sort or in-order traversal to order the list
+    # it also means we should not be appending the new values to a second array
+    
+    
+    # 1. i trade through the existing list "values"
+    # 2. if the value exists in our "seen_values" list, then we pop that value from the list
+    # 3. else, we will append that value to the "seen_values" list and move forward with the loop
+    
+    # OTHER IDEA
+    
+    # 1. convert list into tuple and back into list with list(tuple(list))
+    
+    seen = set()
+    i = 0
+    while i < len(values):
+        if values[i] in seen:
+            values.pop(i)
+        else:
+            seen.add(values[i])
+            i += 1

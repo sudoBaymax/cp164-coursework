@@ -1,0 +1,32 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-10-06"
+-------------------------------------------------------
+"""
+# Imports
+
+def recurse(x, y):
+    """
+    -------------------------------------------------------
+    Recursive function - example of tree recursion.
+    Use: ans = recurse(x, y)
+    -------------------------------------------------------
+    Parameters:
+        x - an integer (int)
+        y - an integer (int)
+    Returns:
+        ans - the function result (int)
+    -------------------------------------------------------
+    """
+    ans = None
+    if x<0 or y<0:
+        ans = x - y
+        
+    ans = recurse(x-1, y) + recurse(x, y-1)
+    
+    return ans

@@ -1,0 +1,309 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+def clean_list(values):
+    """
+    -------------------------------------------------------
+    Removes all duplicate values from a list: values contains
+    only one copy of each of its integers. The order of values
+    must be preserved.
+    Use: clean_list(values)
+    -------------------------------------------------------
+    Parameters:
+        values - a list of integers (list of int)
+    Returns:
+        None
+    -------------------------------------------------------
+    """
+    # order must be preserved
+    # must edit the original list that it takes as a parameter
+    # this means we can't use any algorithm like heap sort or in-order traversal to order the list
+    # it also means we should not be appending the new values to a second array
+    
+    
+    # 1. i trade through the existing list "values"
+    # 2. if the value exists in our "seen_values" list, then we pop that value from the list
+    # 3. else, we will append that value to the "seen_values" list and move forward with the loop
+    
+    # OTHER IDEA
+    
+    # 1. convert list into tuple and back into list with list(tuple(list))
+    
+    seen = set()
+    i = 0
+    while i < len(values):
+        if values[i] in seen:
+            values.pop(i)
+        else:
+            seen.add(values[i])
+            i += 1
+            
+    return
+
+def list_subtraction(minuend, subtrahend):
+    """
+    -------------------------------------------------------
+    Alters the contents of minuend so that it does not contain
+    any values in subtrahend.
+    i.e. the values in the first list that appear in the second list
+    are removed from the first list.
+    Use: list_subtraction(minuend, subtrahend)
+    -------------------------------------------------------
+    Parameters:
+        minuend - a list of values (list)
+        subtrahend - a list of values to not include in difference (list)
+    Returns:
+        None
+    ------------------------------------------------------
+    """
+    
+    # remove all instances of the subtrahend
+    
+    minuend[:] = [v for v in minuend if v not in subtrahend]
+
+def dsmvwl(string):
+    """
+    -------------------------------------------------------
+    Disemvowels a string. out contains all the characters in s
+    that are not vowels. ('y' is not considered a vowel.) Case is preserved.
+    Use: out = dsmvwl(string)
+    -------------------------------------------------------
+    Parameters:
+       string - a string (str)
+    Returns:
+       out - string with the vowels removed (str)
+    -------------------------------------------------------
+    """
+    VOWELS = ['a', 'e', 'i', 'o', 'u']
+    i = 0
+    result = ""
+    
+    while i < len(string):
+        if string[i].lower() in VOWELS:
+            i += 1
+        else:
+            result += string[i]
+            i += 1
+    
+    return result.strip()
+    
+    # vowel list (blacklist)
+    # i trade through the string
+    # if the lowercase of the current character is a vowel, remove
+    # exit when the iteration is equal to length of string
+    
+def file_analyze(fv):
+    """
+    -------------------------------------------------------
+    Analyzes the characters in a file.
+    The contents of the file must be unchanged:
+    Do not strip() the lines.
+    Use: upp, low, dig, whi, rem = file_analyze(fv)
+    -------------------------------------------------------
+    Parameters:
+        fv - an already open file reference (file variable)
+    Returns:
+        upp - the number of uppercase letters in the file (int)
+        low - the number of lowercase letters in the file (int)
+        dig - the number of digits in the file (int)
+        whi - the number of whitespace characters in the file (int)
+        rem - the number of remaining characters in the file (int)
+    -------------------------------------------------------
+    """
+    upp = 0
+    low = 0
+    dig = 0
+    whi = 0
+    rem = 0
+
+    for line in fv:
+        for char in line:
+            if char.isupper():
+                upp += 1
+            elif char.islower():
+                low += 1
+            elif char.isdigit():
+                dig += 1
+            elif char.isspace():
+                whi += 1
+            else:
+                rem += 1
+                
+    return upp, low, dig, whi, rem
+
+def find_subs(string, sub):
+    """
+    -------------------------------------------------------
+    Finds the indices of the locations of sub within string,
+        left to right. Already used characters are ignored.
+    Use: locations = find_subs(string, sub)
+    -------------------------------------------------------
+    Parameters:
+        string - a string to evaluate (str)
+        sub - a substring to locate in string (str)
+    Returns:
+        locations - an ordered list of the indices of the locations
+            of sub within string (list of int)
+    -------------------------------------------------------
+    """
+    locations = []
+    i = 0
+
+    while i <= len(string) - len(sub):
+        if string[i:i+len(sub)] == sub:
+            locations.append(i)
+            i += len(sub)        
+        else:
+            i += 1
+
+    return locations
+
+def is_valid(name):
+    """
+    -------------------------------------------------------
+    Determines if name is a valid Python variable name.
+    Variables names must start with a letter or an underscore.
+    The rest of the variable name may consist of letters, numbers
+    and underscores.
+    Use: valid = is_valid(name)
+    -------------------------------------------------------
+    Parameters:
+        name - a string to test as a Python variable name (str)
+    Returns:
+        valid - True if name is a valid Python variable name,
+            False otherwise (boolean)
+    -------------------------------------------------------
+    """
+    if len(name) == 0:
+        return False
+
+    if not (name[0].isalpha() or name[0] == "_"):
+        return False
+
+    for ch in name[1:]:
+        if not (ch.isalnum() or ch == "_"):
+            return False
+
+    return True
+
+def matrix_transpose(a):
+    """
+    -------------------------------------------------------
+    Transpose the contents of matrix a.
+    Use: b = matrix_transpose(a):
+    -------------------------------------------------------
+    Parameters:
+        a - a 2D list (list of lists of ?)
+    Returns:
+        b - the transposed matrix (list of lists of ?)
+    -------------------------------------------------------
+    """
+    rows = len(a)
+    cols = len(a[0]) if rows > 0 else 0
+
+    # build transpose
+    b = []
+    for c in range(cols):
+        new_row = []
+        for r in range(rows):
+            new_row.append(a[r][c])
+        b.append(new_row)
+
+    return b
+
+def matrixes_multiply(a, b):
+    """
+    -------------------------------------------------------
+    Multiplies the contents of matrixes a and b.
+    If a is mxn in size, and b is nxp in size, then c is mxp.
+    a and b must be unchanged.
+    Use: c = matrixes_multiply(a, b)
+    -------------------------------------------------------
+    Parameters:
+        a - a 2D list (2D list of int/float)
+        b - a 2D list (2D list of int/float)
+    Returns:
+        c - the matrix multiple of a and b (2D list of int/float)
+    -------------------------------------------------------
+    """
+    rows_a = len(a)
+    cols_a = len(a[0]) if rows_a > 0 else 0
+    rows_b = len(b)
+    cols_b = len(b[0]) if rows_b > 0 else 0
+
+    # we need to insure matrices are compatible
+    if cols_a != rows_b:
+        raise ValueError("Incompatible dimensions for multiplication")
+
+    # initialize result matrix with zeros
+    c = [[0 for _ in range(cols_b)] for _ in range(rows_a)]
+
+    # multiply
+    for i in range(rows_a):
+        for j in range(cols_b):
+            for k in range(cols_a):   # or rows_b, same
+                c[i][j] += a[i][k] * b[k][j]
+
+    return c
+
+def substitute(string, ciphertext):
+    """
+    -------------------------------------------------------
+    Encipher a string using the letter positions in ciphertext.
+    Only letters are enciphered, and the returned string is
+    in upper case.
+    Use: estring = substitute(string, ciphertext):
+    -------------------------------------------------------
+    Parameters:
+        string - string to encipher (str)
+        ciphertext - ciphertext alphabet (str)
+    Returns:
+        estring - the enciphered string (str)
+    -------------------------------------------------------
+    """
+    alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    estring = ""
+
+    for ch in string.upper():
+        if ch.isalpha():
+            index = alphabet.index(ch)
+            estring += ciphertext[index]
+        else:
+            estring += ch
+
+    return estring
+
+def shift(string, n):
+    """
+    -------------------------------------------------------
+    Encipher a string using a shift cipher.
+    Only letters are enciphered, and the returned string is
+    in upper case.
+    Use: estring = shift(string, n):
+    -------------------------------------------------------
+    Parameters:
+        string - string to encipher (str)
+        n - the number of letters to shift (int)
+    Returns:
+        estring - the enciphered string (str)
+    -------------------------------------------------------
+    """
+    estring = ""
+
+    for ch in string.upper():
+        if ch.isalpha():
+            shifted_index = (ord(ch) - ord('A') + n) % 26
+            estring += chr(ord('A') + shifted_index)
+        else:
+            estring += ch
+
+    return estring

@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l01\com.python.pydev.analysis\v2_indexcache
+test_genres_string|1757723470117018100|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_string.py
+test_read_movies|1757732273227480000|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_movies.py
+test_genres_menu|1757726583260778500|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_menu.py
+test_get_movie|1757729399305391100|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_get_movie.py
+test_genres_list_string|1757725438363933200|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_list_string.py
+test_read_genres|1757728422287615500|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_genres.py
+test_read_movie|1757731881326695200|C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_movie.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+12=test_genres_string
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_genres.py
+6=test_genres_menu
+11=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_string.py
+2=test_read_genres
+14=test_read_movies
+13=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_movies.py
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_get_movie.py
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_menu.py
+8=test_get_movie
+4=test_genres_list_string
+9=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_read_movie.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_l01\src\test_genres_list_string.py
+10=test_read_movie
+-- END DICTIONARY
+-- START TREE 1
+2
+mai|7|main!1^15#5*18@main!3^15#5*34@main!5^14#5*50@main!7^15#5*66@main!9^15#5*82@main!11^15#5*98@main!13^15#5*114@
+res|3|result!9^20#5*83@result!13^20#5*115@result!1^20#5*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

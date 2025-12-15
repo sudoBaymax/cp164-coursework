@@ -1,0 +1,48 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-10-06"
+-------------------------------------------------------
+"""
+# Imports
+
+def recurse(x, y):
+    """
+    -------------------------------------------------------
+    Recursive function - example of tree recursion.
+    Use: ans = recurse(x, y)
+    -------------------------------------------------------
+    Parameters:
+        x - an integer (int)
+        y - an integer (int)
+    Returns:
+        ans - the function result (int)
+    -------------------------------------------------------
+    """
+
+    if x<0 or y<0:
+        ans = x - y
+    else:
+        ans = recurse(x-1, y) + recurse(x, y-1)
+    
+    return ans
+
+def gcd(m, n):
+    """
+    -------------------------------------------------------
+    Recursively find the Greatest Common Denominator of two numbers.
+    Use: ans = gcd(m, n)
+    -------------------------------------------------------
+    Parameters:
+        n - an integer (int)
+        m - an integer (int)
+    Returns:
+        ans - the function result (int)
+    -------------------------------------------------------
+    """
+    
+    if m%n == 0

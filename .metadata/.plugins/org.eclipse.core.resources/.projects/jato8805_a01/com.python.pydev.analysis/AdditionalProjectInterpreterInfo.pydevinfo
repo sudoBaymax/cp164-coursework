@@ -1,0 +1,56 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a01\com.python.pydev.analysis\v2_indexcache
+t10|1757814888876453300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t10.py
+functions|1757814994450036500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\functions.py
+t01|1757791503712777500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t01.py
+t03|1757805938698810400|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t03.py
+t02|1757799656631912900|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t02.py
+t05|1757812351638304700|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t05.py
+t04|1757810461909000300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t04.py
+t07|1757812958455771300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t07.py
+t06|1757812858800434500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t06.py
+t09|1757814609197711900|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t09.py
+t08|1757813144197812000|C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t08.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+13=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t05.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\functions.py
+2=functions
+19=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t10.py
+20=t10
+4=t01
+10=t03
+8=t02
+14=t05
+12=t04
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t01.py
+18=t07
+16=t06
+6=t09
+21=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t08.py
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t02.py
+9=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t03.py
+22=t08
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t09.py
+11=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t04.py
+15=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t06.py
+17=C:\Users\Joseph\CP164_FALL_2025\jato8805_a01\src\t07.py
+-- END DICTIONARY
+-- START TREE 1
+10
+cle|1|clean_list!1^13#5*18@
+dsm|1|dsmvwl!1^73#5*18@
+fil|1|file_analyze!1^104#5*18@
+fin|1|find_subs!1^143#5*18@
+is_|1|is_valid!1^170#5*18@
+lis|1|list_subtraction!1^52#5*18@
+mai|10|main!3^15#5*34@main!5^15#5*50@main!7^15#5*66@main!9^15#5*82@main!11^14#5*98@main!13^14#5*114@main!15^14#5*130@main!17^14#5*146@main!19^14#5*162@main!21^15#5*178@
+mat|2|matrixes_multiply!1^223#5*18@matrix_transpose!1^198#5*18@
+shi|1|shift!1^285#5*18@
+sub|1|substitute!1^258#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

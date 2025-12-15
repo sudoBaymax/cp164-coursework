@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a02\com.python.pydev.analysis\v2_indexcache
+t01|1758424334448122000|C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t01.py
+t03|1758423418533662300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t03.py
+t02|1758422634065718200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t02.py
+t05|1758424139612157500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t05.py
+t04|1758423950323045500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t03.py
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t04.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t02.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t01.py
+2=t01
+6=t03
+4=t02
+10=t05
+8=t04
+9=C:\Users\Joseph\CP164_FALL_2025\jato8805_a02\src\t05.py
+-- END DICTIONARY
+-- START TREE 1
+2
+mai|5|main!1^25#5*18@main!3^32#5*34@main!5^25#5*50@main!7^25#5*66@main!9^15#5*82@
+pri|4|print_movies!1^15#5*18@print_movies!3^22#5*34@print_movies!5^15#5*50@print_movies!7^15#5*66@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

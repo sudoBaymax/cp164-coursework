@@ -1,0 +1,142 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+def clean_list(values):
+    """
+    -------------------------------------------------------
+    Removes all duplicate values from a list: values contains
+    only one copy of each of its integers. The order of values
+    must be preserved.
+    Use: clean_list(values)
+    -------------------------------------------------------
+    Parameters:
+        values - a list of integers (list of int)
+    Returns:
+        None
+    -------------------------------------------------------
+    """
+    # order must be preserved
+    # must edit the original list that it takes as a parameter
+    # this means we can't use any algorithm like heap sort or in-order traversal to order the list
+    # it also means we should not be appending the new values to a second array
+    
+    
+    # 1. i trade through the existing list "values"
+    # 2. if the value exists in our "seen_values" list, then we pop that value from the list
+    # 3. else, we will append that value to the "seen_values" list and move forward with the loop
+    
+    # OTHER IDEA
+    
+    # 1. convert list into tuple and back into list with list(tuple(list))
+    
+    seen = set()
+    i = 0
+    while i < len(values):
+        if values[i] in seen:
+            values.pop(i)
+        else:
+            seen.add(values[i])
+            i += 1
+            
+    return
+
+def list_subtraction(minuend, subtrahend):
+    """
+    -------------------------------------------------------
+    Alters the contents of minuend so that it does not contain
+    any values in subtrahend.
+    i.e. the values in the first list that appear in the second list
+    are removed from the first list.
+    Use: list_subtraction(minuend, subtrahend)
+    -------------------------------------------------------
+    Parameters:
+        minuend - a list of values (list)
+        subtrahend - a list of values to not include in difference (list)
+    Returns:
+        None
+    ------------------------------------------------------
+    """
+    
+    # remove all instances of the subtrahend
+    
+    minuend[:] = [v for v in minuend if v not in subtrahend]
+
+def dsmvwl(string):
+    """
+    -------------------------------------------------------
+    Disemvowels a string. out contains all the characters in s
+    that are not vowels. ('y' is not considered a vowel.) Case is preserved.
+    Use: out = dsmvwl(string)
+    -------------------------------------------------------
+    Parameters:
+       string - a string (str)
+    Returns:
+       out - string with the vowels removed (str)
+    -------------------------------------------------------
+    """
+    VOWELS = ['a', 'e', 'i', 'o', 'u']
+    i = 0
+    result = ""
+    
+    while i < len(string):
+        if string[i].lower() in VOWELS:
+            i += 1
+        else:
+            result += string[i]
+            i += 1
+    
+    return result.strip()
+    
+    # vowel list (blacklist)
+    # i trade through the string
+    # if the lowercase of the current character is a vowel, remove
+    # exit when the iteration is equal to length of string
+    
+def file_analyze(fv):
+    """
+    -------------------------------------------------------
+    Analyzes the characters in a file.
+    The contents of the file must be unchanged:
+    Do not strip() the lines.
+    Use: upp, low, dig, whi, rem = file_analyze(fv)
+    -------------------------------------------------------
+    Parameters:
+        fv - an already open file reference (file variable)
+    Returns:
+        upp - the number of uppercase letters in the file (int)
+        low - the number of lowercase letters in the file (int)
+        dig - the number of digits in the file (int)
+        whi - the number of whitespace characters in the file (int)
+        rem - the number of remaining characters in the file (int)
+    -------------------------------------------------------
+    """
+    upp = 0
+    low = 0
+    dig = 0
+    whi = 0
+    rem = 0
+
+    for line in fv:
+        for char in line:
+            if char.isupper():
+                upp += 1
+            elif char.islower():
+                low += 1
+            elif char.isdigit():
+                dig += 1
+            elif char.isspace():
+                whi += 1
+            else:
+                rem += 1
+            
+                
+    return upp, low, dig, whi, rem

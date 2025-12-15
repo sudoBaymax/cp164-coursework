@@ -1,0 +1,23 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l05\com.python.pydev.analysis\v2_indexcache
+functions|1760108443244460800|C:\Users\Joseph\CP164_FALL_2025\jato8805_l05\src\functions.py
+t04|1759806031430129200|C:\Users\Joseph\CP164_FALL_2025\jato8805_l05\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=functions
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_l05\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+6
+bag|1|bag_to_set!1^138#5*18@
+gcd|1|gcd!1^34#5*18@
+is_|1|is_palindrome!1^110#5*18@
+rec|1|recurse!1^13#5*18@
+to_|1|to_power!1^83#5*18@
+vow|1|vowel_count!1^55#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

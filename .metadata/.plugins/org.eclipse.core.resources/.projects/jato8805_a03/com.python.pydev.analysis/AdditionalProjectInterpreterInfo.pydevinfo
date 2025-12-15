@@ -1,0 +1,45 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a03\com.python.pydev.analysis\v2_indexcache
+functions|1759028466403117200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\functions.py
+t01|1759026997023121000|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t01.py
+t03|1759027089164818600|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t03.py
+t02|1759027059093586300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t02.py
+t05|1759027503611204200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t05.py
+t04|1759027472499193500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t04.py
+t07|1759027989555535300|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t07.py
+t06|1759028399415335500|C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+11=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t03.py
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t01.py
+9=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t02.py
+4=functions
+8=t01
+12=t03
+10=t02
+2=t05
+14=t04
+6=t06
+13=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t04.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t05.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\functions.py
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a03\src\t06.py
+-- END DICTIONARY
+-- START TREE 1
+10
+ans|1|answer!1^18#1*19@
+is_|1|is_mirror_stack!3^234#5*34@
+maz|2|maze2!5^25#1*51@maze1!5^17#1*51@
+mir|1|MIRRORED!3^232#1*35@
+ope|1|OPERATORS!3^72#1*35@
+pos|1|postfix!3^74#5*34@
+rer|1|reroute!3^186#5*34@
+sou|4|source!7^18#1*67@source!9^19#1*83@source!11^20#1*99@source!13^18#1*115@
+sta|7|stack!13^16#1*115@stack_split_alt!3^15#5*34@stack!7^16#1*67@stack_maze!3^130#5*34@stack_reverse!3^47#5*34@stack!9^17#1*83@stack!11^18#1*99@
+str|1|string!1^16#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,15 @@
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   drama, comedy
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, romance
+Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction

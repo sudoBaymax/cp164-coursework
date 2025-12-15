@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_l04\com.python.pydev.analysis\v2_indexcache
+test_none_keys|1759256366587668200|C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\test_none_keys.py
+t01|1759538882740544100|C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\t01.py
+t02|1759543516922990200|C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+6=test_none_keys
+2=t01
+4=t02
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\test_none_keys.py
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\t01.py
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_l04\src\t02.py
+-- END DICTIONARY
+-- START TREE 1
+6
+ins|2|inspect_list!1^16#5*18@inspect_list!3^17#5*34@
+mai|3|main!1^96#5*18@main!3^223#5*34@main!5^24#5*50@
+run|2|run_test!1^25#5*18@run_list_to_array_test!3^24#5*34@
+sho|1|show!5^22#5*50@
+tes|3|test_list_to_array!3^70#5*34@test_roundtrip!3^146#5*34@test_multiple_operations!3^184#5*34@
+twi|1|twice_call_test!1^64#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

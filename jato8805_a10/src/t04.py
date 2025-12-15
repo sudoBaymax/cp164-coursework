@@ -1,0 +1,36 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-11-29"
+-------------------------------------------------------
+"""
+# Imports
+def print_deque(d):
+    print([v for v in d])   # assumes your Deque implements __iter__
+
+def test_gnome_sort_case(values):
+    from Sorts_Deque_linked import Sorts   # adjust import if needed
+    from Deque_linked import Deque  # adjust based on your filenames
+
+    print("Original:", values)
+    d = Deque()
+    for v in values:
+        d.insert_rear(v)
+
+    Sorts.swaps = 0
+    Sorts.gnome_sort(d)
+
+    print("Sorted:  ", [v for v in d])
+    print("Swaps:   ", Sorts.swaps)
+    print("-" * 40)
+
+
+# ---- Run Tests ----
+test_gnome_sort_case([24, 51, 12, 247])
+test_gnome_sort_case([5, 4, 3, 2, 1])
+test_gnome_sort_case([1, 2, 3, 4, 5])
+test_gnome_sort_case([7, 3, 9, 3, 2, 1, 9])

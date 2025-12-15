@@ -1,0 +1,26 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a05\com.python.pydev.analysis\v2_indexcache
+t01|1760170423363878200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t01.py
+t02|1760171600540263600|C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=t01
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t01.py
+4=t02
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t02.py
+-- END DICTIONARY
+-- START TREE 1
+7
+exp|6|expect_true!1^31#5*18@expect_true!3^26#5*34@expect_raises!1^38#5*18@expect_raises!3^31#5*34@expect_eq!1^24#5*18@expect_eq!3^21#5*34@
+fai|3|fail!3^19#5*34@FAILED!1^16#1*19@fail!1^21#5*18@
+ok|2|ok!3^18#5*34@ok!1^18#5*18@
+pas|2|PASSED!1^15#1*19@PASSED!3^16#1*35@
+pri|2|print_header!1^50#5*18@print_header!3^41#5*34@
+run|2|run_all_tests!1^182#5*18@run_all!3^121#5*34@
+tes|11|test_other_operations_and_edges!1^155#5*18@test_split_variants_and_iterator!3^112#5*34@test_peek_pop_remove_front_remove_many_max_min_eq_is_empty!3^93#5*34@test_contains_find_count_index!3^54#5*34@test_insert_and_order_and_stability!3^44#5*34@test_combine_union_intersection_clean_copy!3^64#5*34@test_remove_and_remove_many_and_clean!1^78#5*18@test_combine_and_union_and_intersection!1^96#5*18@test_basic_append_getitem_len!1^56#5*18@test_split_variants!1^126#5*18@test_prepend_and_remove_front!1^69#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,29 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-09-13"
+-------------------------------------------------------
+"""
+# Imports
+
+from functions import substitute
+
+def main():
+    # Sample test
+    print(substitute('David', 'DAVIBROWNZCEFGHJKLMPQSTUXY'))
+    # Expected: IDSNI
+
+    # Mixed input with punctuation
+    print(substitute("Hello, World!", "DAVIBROWNZCEFGHJKLMPQSTUXY"))
+    # Enciphered with punctuation kept
+
+    # Empty string
+    print(substitute("", "DAVIBROWNZCEFGHJKLMPQSTUXY"))
+    # Expected: ""
+    
+if __name__ == "__main__":
+    main()

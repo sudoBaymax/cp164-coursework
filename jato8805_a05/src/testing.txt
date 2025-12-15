@@ -1,0 +1,163 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-10-11
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+============================================================
+Running List ADT test suite
+============================================================
+
+============================================================
+Basic: append, __getitem__, __len__, deepcopy semantics
+------------------------------------------------------------
+  PASS: len after two appends == 2
+  PASS: getitem 0 correct
+  PASS: getitem -1 correct
+  PASS: stored deepcopy preserved after original mutated
+
+============================================================
+Prepend and remove_front
+------------------------------------------------------------
+  PASS: len after two prepends == 2
+  PASS: remove_front returned first inserted element
+  PASS: len decreased after remove_front
+
+============================================================
+Remove, remove_many, clean
+------------------------------------------------------------
+  PASS: remove returns removed movie equal to original
+  PASS: len after remove == 2
+  PASS: remove_many on non-existent key leaves list unchanged
+  PASS: len after adding duplicates == 4
+  PASS: clean removed duplicates keeping first occurrence
+
+============================================================
+Combine, union, intersection (and source-emptying behavior)
+------------------------------------------------------------
+  PASS: combine produced 5 elements
+  PASS: s1 emptied after combine
+  PASS: s2 emptied after combine
+  PASS: union combined unique values
+  PASS: s1 emptied after union
+  PASS: s2 emptied after union
+  PASS: intersection found two common movies
+  PASS: s1 unchanged after intersection
+  PASS: s2 unchanged after intersection
+
+============================================================
+split, split_alt, split_apply, split_key
+------------------------------------------------------------
+  PASS: split total preserved
+  PASS: original emptied after split
+  PASS: split_alt total preserved
+  PASS: original emptied after split_alt
+  PASS: split_apply preserves total count
+  PASS: split_key less-than correct
+  PASS: split_key >= correct
+
+============================================================
+Other operations & edge cases
+------------------------------------------------------------
+  PASS: empty list is_empty True
+  PASS: len empty list == 0
+  PASS: peek on empty raises AssertionError (raised AssertionError)
+  PASS: pop on empty raises AssertionError (raised AssertionError)
+  PASS: remove_front on empty raises AssertionError (raised AssertionError)
+  PASS: reverse worked (first element 5)
+  PASS: max returned 5
+  PASS: min returned 0
+  PASS: apply transformed values
+  PASS: pop without args returned last value (0 after reverse+apply)
+  PASS: pop(0) returned first element
+  PASS: setitem updated value correctly
+
+============================================================
+TOTAL PASSED: 40, TOTAL FAILED: 0
+============================================================
+ALL TESTS PASSED ✅
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+============================================================
+Running Sorted_List ADT test suite
+============================================================
+
+============================================================
+insert: ordering and stability
+------------------------------------------------------------
+  PASS: integers sorted with duplicates preserved order of equals
+Exception during test_insert_and_order_and_stability TypeError Movie.__init__() missing 3 required positional arguments: 'director', 'rating', and 'genres'
+Traceback (most recent call last):
+  File "C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t02.py", line 131, in run_all
+    try: t()
+         ^^^
+  File "C:\Users\Joseph\CP164_FALL_2025\jato8805_a05\src\t02.py", line 50, in test_insert_and_order_and_stability
+    m1 = Movie("A",2000); m2 = Movie("A",2000); m3 = Movie("B",2001)
+         ^^^^^^^^^^^^^^^
+TypeError: Movie.__init__() missing 3 required positional arguments: 'director', 'rating', and 'genres'
+
+============================================================
+contains, find, count, index
+------------------------------------------------------------
+  PASS: __contains__ finds existing value
+  PASS: count returns correct number
+  PASS: index returns first occurrence index (3)
+  PASS: find returns deepcopy of value 2 (int)
+  PASS: find returns None for missing value
+
+============================================================
+combine, union, intersection, clean, copy
+------------------------------------------------------------
+  PASS: combine merged sorted sequences
+  PASS: source a emptied after combine
+  PASS: source b emptied after combine
+  PASS: union created sorted unique list
+  PASS: a emptied after union
+  PASS: b emptied after union
+  PASS: intersection returns common sorted unique values
+  PASS: a unchanged after intersection
+  PASS: b unchanged after intersection
+  PASS: clean removed duplicates
+  PASS: copy has same values
+  PASS: copy is distinct object
+
+============================================================
+peek, pop, remove_front, remove_many, max/min, eq, is_empty edges
+------------------------------------------------------------
+  PASS: empty is_empty True
+  PASS: peek on empty raises (raised AssertionError)
+  PASS: pop on empty raises (raised AssertionError)
+  PASS: remove_front on empty raises (raised AssertionError)
+  PASS: peek returns first value
+  PASS: pop returns last value
+  PASS: remove_front removed first value
+  PASS: remove_many removed all 2s
+  PASS: max returns 5
+  PASS: min returns 3
+  FAIL: __eq__ true for equal lists
+
+============================================================
+split variants and iterator
+------------------------------------------------------------
+  PASS: split preserved total count
+  PASS: source emptied after split
+  PASS: split_alt preserved count
+  PASS: source emptied after split_alt
+  PASS: split_apply preserved count
+  PASS: split_key less-than correct
+  PASS: split_key >= correct
+  PASS: iterator yields values in order
+
+============================================================
+TOTAL PASSED: 36, TOTAL FAILED: 1
+============================================================
+Some tests failed ❌

@@ -1,0 +1,25 @@
+"""
+-------------------------------------------------------
+[Program Description]
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+__updated__ = "2025-12-09"
+-------------------------------------------------------
+"""
+# Imports
+
+from BST_linked import BST
+
+def bst_sum(bst):
+    bst_sum_aux(bst._roott)
+
+def bst_sum_aux(node):
+    sum = 0
+    
+    if node is None:
+        sum = 0
+    if node._left is not None and node._right is not None:
+        sum = bst_sum(node._left) + bst_sum(node._right)
+    

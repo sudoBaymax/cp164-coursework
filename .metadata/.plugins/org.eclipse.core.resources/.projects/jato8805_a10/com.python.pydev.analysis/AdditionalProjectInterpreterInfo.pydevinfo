@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Joseph\CP164_FALL_2025\.metadata\.plugins\org.eclipse.core.resources\.projects\jato8805_a10\com.python.pydev.analysis\v2_indexcache
+t01|1764470838145941200|C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t01.py
+t03|1764473385511778600|C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t03.py
+t02|1764470789207030800|C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t02.py
+t04|1764477458271026100|C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+3=C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t04.py
+5=C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t03.py
+8=t01
+1=C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t02.py
+6=t03
+2=t02
+4=t04
+7=C:\Users\Joseph\CP164_FALL_2025\jato8805_a10\src\t01.py
+-- END DICTIONARY
+-- START TREE 1
+5
+lst|1|lst!1^15#1*19@
+pri|1|print_deque!3^12#5*34@
+sor|2|sort!5^14#1*51@sort!7^14#1*67@
+tes|1|test_gnome_sort_case!3^15#5*34@
+x|2|x!7^15#1*67@x!5^15#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

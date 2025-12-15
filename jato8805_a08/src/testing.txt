@@ -1,0 +1,81 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-11-14
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+
+
+
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Comparing by order: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Total Comparisons: 31,250,718
+------------------------------------------------------------
+Comparing by order: MFTCJPWADHKNRUYBEIGLOQSVXZ
+Total Comparisons: 9,645,832
+------------------------------------------------------------
+Comparing by order: ETAOINSHRDLUCMPFYWGBVKJXZQ
+Total Comparisons: 8,856,077
+------------------------------------------------------------
+
+Analysis:
+DATA3 (frequency order) is most efficient.
+
+Explanation:
+The frequency-based insertion order (DATA3) is most efficient because
+it places the most commonly used letters (E, T, A, O, etc.) higher in
+the tree, reducing the average number of comparisons needed to retrieve
+letters during text processing. While DATA2 creates a tree of minimum
+height, DATA3 optimizes for actual usage patterns in English text.
+
+DATA1 (alphabetical) creates a completely unbalanced tree that degenerates
+into a linked list with O(n) search time, making it the least efficient.
+DATA2 creates a balanced tree with O(log n) search time for all letters.
+DATA3 combines good balance with frequency optimization, placing common
+letters near the root for faster average retrieval.
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Letter Count/Percent Table
+
+Total Count: 1,281,204
+
+Letter  Count       %
+---------------------
+    A   99,249   7.75%
+    B   18,031   1.41%
+    C   40,008   3.12%
+    D   50,924   3.97%
+    E  168,374  13.14%
+    F   36,256   2.83%
+    G   18,844   1.47%
+    H   70,753   5.52%
+    I   95,763   7.47%
+    J    1,920   0.15%
+    K    3,063   0.24%
+    L   43,138   3.37%
+    M   32,809   2.56%
+    N   87,437   6.82%
+    O   97,241   7.59%
+    P   28,579   2.23%
+    Q    1,741   0.14%
+    R   81,236   6.34%
+    S   86,167   6.73%
+    T  122,887   9.59%
+    U   37,289   2.91%
+    V   14,967   1.17%
+    W   19,734   1.54%
+    X    4,197   0.33%
+    Y   19,775   1.54%
+    Z      822   0.06%
+

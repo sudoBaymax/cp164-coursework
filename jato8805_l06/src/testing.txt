@@ -1,0 +1,42 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-12-09
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+append 5 movies
+['Dellamorte Dellamore, 1994', 'Dark City, 1998', 'Zulu, 1964', 'I Am Legend, 2007', 'Omega Man, The, 1971']
+
+prepend one movie (Stardust)
+['Stardust, 2007', 'Dellamorte Dellamore, 1994', 'Dark City, 1998', 'Zulu, 1964', 'I Am Legend, 2007', 'Omega Man, The, 1971']
+
+insert Juno at index 1
+['Stardust, 2007', 'Juno, 2007', 'Dellamorte Dellamore, 1994', 'Dark City, 1998', 'Zulu, 1964', 'I Am Legend, 2007', 'Omega Man, The, 1971']
+
+peek (front): Stardust, 2007
+
+index of Zulu (1964): 4
+found Zulu (1964): Zulu, 1964
+
+remove Zulu (1964): Zulu, 1964
+['Stardust, 2007', 'Juno, 2007', 'Dellamorte Dellamore, 1994', 'Dark City, 1998', 'I Am Legend, 2007', 'Omega Man, The, 1971']
+
+append another Zulu (1964) and Zulu (2013)
+['Stardust, 2007', 'Juno, 2007', 'Dellamorte Dellamore, 1994', 'Dark City, 1998', 'I Am Legend, 2007', 'Omega Man, The, 1971', 'Zulu, 1964', 'Zulu, 2013']
+
+count of Zulu (1964): 1
+index of Zulu (2013): 7
+found Zulu (2013): Zulu, 2013
+
+remove_many Zulu (1964)
+['Stardust, 2007', 'Juno, 2007', 'Dellamorte Dellamore, 1994', 'Dark City, 1998', 'I Am Legend, 2007', 'Omega Man, The, 1971', 'Zulu, 2013']
+count of Zulu (1964) after remove_many: 0
+
+final length of list: 7

@@ -1,0 +1,148 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Joseph Jatou
+ID:      169088805
+Email:   jato8805@mylaurier.ca
+Version: 2025-12-09
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+test_array_to_stack.py
+-------------------------------------------------------
+Stack: TOP -> [29, 21] -> BOTTOM
+Source: []
+Stack: TOP -> [1, 2, 3, 35] -> BOTTOM
+Source: []
+Stack: TOP -> [] -> BOTTOM
+Source: []
+-------------------------------------------------------
+stack_test_movies.py
+-------------------------------------------------------
+== Stack test start ==
+Empty? True  (expected: True)
+Attempting peek() on empty stack (should raise IndexError)...
+peek() on empty raised: AssertionError: Cannot peek at an empty stack
+Attempting pop() on empty stack (should raise IndexError)...
+pop() on empty raised: AssertionError: Cannot pop from an empty stack
+
+Pushing items from source onto stack...
+ push(<Movie.Movie object at 0x00000204696F41D0>)
+ push(<Movie.Movie object at 0x00000204696F41A0>)
+ push(<Movie.Movie object at 0x00000204696F4230>)
+ push(<Movie.Movie object at 0x00000204696F42C0>)
+ push(<Movie.Movie object at 0x00000204696F42F0>)
+ push(<Movie.Movie object at 0x00000204696F4260>)
+ push(<Movie.Movie object at 0x00000204696F4350>)
+ push(<Movie.Movie object at 0x00000204696F4380>)
+ push(<Movie.Movie object at 0x00000204696F43E0>)
+ push(<Movie.Movie object at 0x00000204696F4320>)
+ push(<Movie.Movie object at 0x00000204696F4440>)
+ push(<Movie.Movie object at 0x00000204696F4470>)
+ push(<Movie.Movie object at 0x00000204696F43B0>)
+ push(<Movie.Movie object at 0x00000204696F44D0>)
+ push(<Movie.Movie object at 0x00000204696F4410>)
+ push(<Movie.Movie object at 0x00000204696F44A0>)
+ push(<Movie.Movie object at 0x00000204696F4500>)
+ push(<Movie.Movie object at 0x00000204696F4530>)
+ push(<Movie.Movie object at 0x00000204696F4560>)
+ push(<Movie.Movie object at 0x00000204696F45F0>)
+ push(<Movie.Movie object at 0x00000204696F45C0>)
+
+Empty? False  (expected: False)
+peek() -> <Movie.Movie object at 0x00000204696F4E60>  (expected: last item in source)
+
+Popping all items (LIFO order):
+ pop() -> <Movie.Movie object at 0x00000204696F4E30>
+ pop() -> <Movie.Movie object at 0x00000204696F4DD0>
+ pop() -> <Movie.Movie object at 0x00000204696F4D70>
+ pop() -> <Movie.Movie object at 0x00000204696F4D10>
+ pop() -> <Movie.Movie object at 0x00000204696F4CB0>
+ pop() -> <Movie.Movie object at 0x00000204696F4C50>
+ pop() -> <Movie.Movie object at 0x00000204696F4BF0>
+ pop() -> <Movie.Movie object at 0x00000204696F4B90>
+ pop() -> <Movie.Movie object at 0x00000204696F4B30>
+ pop() -> <Movie.Movie object at 0x00000204696F4AD0>
+ pop() -> <Movie.Movie object at 0x00000204696F4A70>
+ pop() -> <Movie.Movie object at 0x00000204696F4A10>
+ pop() -> <Movie.Movie object at 0x00000204696F49B0>
+ pop() -> <Movie.Movie object at 0x00000204696F4950>
+ pop() -> <Movie.Movie object at 0x00000204696F48F0>
+ pop() -> <Movie.Movie object at 0x00000204696F4890>
+ pop() -> <Movie.Movie object at 0x00000204696F4830>
+ pop() -> <Movie.Movie object at 0x00000204696F47D0>
+ pop() -> <Movie.Movie object at 0x00000204696F4770>
+ pop() -> <Movie.Movie object at 0x00000204696F4710>
+ pop() -> <Movie.Movie object at 0x00000204696F46B0>
+
+Empty? True  (expected: True)
+Re-testing peek()/pop() on empty...
+peek() on empty raised: AssertionError: Cannot peek at an empty stack
+pop() on empty raised: AssertionError: Cannot pop from an empty stack
+== Stack test end ==
+
+
+-------------------------------------------------------
+test_reverse_pipeline.py
+-------------------------------------------------------
+
+=== Basic odd length ===
+Input array: [1, 2, 3]
+After array_to_stack:
+  Stack:  TOP -> [1, 2, 3] -> BOTTOM
+  Source: []
+After stack_to_array:
+  Stack:  TOP -> [] -> BOTTOM
+  Target: [3, 2, 1]
+Expected reversed: [3, 2, 1]
+✅ Reversal property holds.
+
+=== Two elements ===
+Input array: [29, 21]
+After array_to_stack:
+  Stack:  TOP -> [29, 21] -> BOTTOM
+  Source: []
+After stack_to_array:
+  Stack:  TOP -> [] -> BOTTOM
+  Target: [21, 29]
+Expected reversed: [21, 29]
+✅ Reversal property holds.
+
+=== Duplicates ===
+Input array: [2, 2, 3, 2]
+After array_to_stack:
+  Stack:  TOP -> [2, 2, 3, 2] -> BOTTOM
+  Source: []
+After stack_to_array:
+  Stack:  TOP -> [] -> BOTTOM
+  Target: [2, 3, 2, 2]
+Expected reversed: [2, 3, 2, 2]
+✅ Reversal property holds.
+
+=== Empty list ===
+Input array: []
+After array_to_stack:
+  Stack:  TOP -> [] -> BOTTOM
+  Source: []
+After stack_to_array:
+  Stack:  TOP -> [] -> BOTTOM
+  Target: []
+Expected reversed: []
+✅ Reversal property holds.
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+-------------------------------------------------------
+test_stack_to_array.py
+-------------------------------------------------------
+Stack: []
+Target: [2, 4, 6, 2]
+-------------------------------------------------------
